@@ -448,7 +448,7 @@ section {
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
-  padding: 15px;
+  padding: 15px 0 0;
   border: 1px #eef0ef;
 }
 
