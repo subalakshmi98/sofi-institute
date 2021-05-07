@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 0 10px;
   overflow: hidden;
 }
 
@@ -448,18 +448,18 @@ section {
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
-  padding: 15px 0 0;
+  padding: 15px 0 1px;
   border: 1px #eef0ef;
 }
 
 .courses .img-fluid{
   width: 100%;
-  height: 50%;
+  /* height: 45%; */
   margin: 5% 2%;
 }
 
 .courses .course-content {
-  padding: 15px 0px 1px;
+  padding: 5px 0px 1px;
 }
 
 .courses .course-content h3 {
@@ -488,6 +488,44 @@ section {
   color: #fff;
   margin: 0;
 }
+
+#myBtn{
+  border: none;
+}
+.courses .get-started-myBtn {
+    margin-left: 2px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: fixed;
+  }
+
+#more {
+  display:none;
+}
+
+
+#myBtn1{
+  border: none;
+}
+.courses .get-started-myBtn {
+    margin-left: 2px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: fixed;
+  }
+
+#more1 {
+  display:none;
+}
+
 
 /*--------------------------------------------------------------
 # services
@@ -1088,3 +1126,4 @@ height: 50%;
   color: #fff;
   text-decoration: none;
 }
+
