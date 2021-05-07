@@ -76,7 +76,7 @@
 
 
     <!-- ======= Popular Courses Section ======= -->
-    <section class="courses section">
+    <section class="courses">
       <div class="container" data-aos="fade-up">
 
         <div id="popular-courses" class="section-title">
@@ -90,11 +90,21 @@
               <img src="assets/img/sofi/diploma.jpg" class="img-fluid" alt="...">
               <div class="course-content">
                 <h3><a href="course-details.html#course-details">Diploma & Professional Programs</a></h3>
-                <p>This course is designed to teach the various nuances of pattern making and
-                  fashion dress designing in a comprehensive manner. By learning this, student would be able to
-                 design based on latest trends. <br> <br>
-               
-              <a href="course-details.html#course-details" class="btn-get-started">Join Us</a>  </p>  </div>
+                    <p>This course is designed to teach the various nuances of pattern making and
+                      fashion dress designing in a comprehensive manner. We offers<span id="dots">...</span><span id="more">: <br> <br>
+                       Fashion Designing <br>
+                       Boutique Management<br>
+                       Costume Designing <br>
+                       Dress Designing <br>
+                       Embroidery Designing <br>
+                       Fashion Illustration and skitches <br>
+                       CAD Fashion Designing <br>
+                       Jewellery Making <br>
+                       Paintings (15 Models) <br>
+                       Art & crafts <br> <br> <a href="course-details.html#course-details" class="btn-get-started">Join Us</a> </span></p>
+                   <button onclick="myfunction()" class="get-started-myBtn" id="myBtn">Read more</button>
+
+          </div>
             </div>
           </div>
 
@@ -104,8 +114,27 @@
               <div class="course-content">
                 <h3><a href="course-details.html#course-details-tabs">Short Team Programs</a></h3>
                 <p>In this course, student learns Knitting and Crochet, Tailoring, Aari and Embroidery, Paintings, Fashion & Costume Designing.
-                   Guidance on calculations for drafting and Pattern Drafting on paper. <br> <br>
-              <a href="course-details.html#course-details-tabs" class="btn-get-started">Join Us</a> </p></div>
+                   Guidance on calculations for drafting and Pattern Drafting on paper. We offers<span id="dots1">...</span><span id="more1">: <br> <br>
+                    Tailoring <br>
+                    Aari Embroidery<br>
+                    Hand Embroidery <br>
+                    Machine Embroidery <br>
+                    Traditional Embroidery<br>
+                    Modern Chudithar Making <br>
+                    Pattern Blouse Making <br>
+                    Trendy Blouse Making <br>
+                    Kids Dress Making <br>
+                    Western Dress Making <br>
+                    Uniform Pattern Making<br>
+                    Glass Painting <br>
+                    Fabric Painting <br>
+                    Coffee Painting <br>
+                    Mural Painting <br>
+                    Knitting and Crochet <br>
+                    Saree Tassels <br>
+                    Art & crafts <br> <br> <a href="course-details.html#course-details" class="btn-get-started">Join Us</a></span></p>
+                <button onclick="myfunction1()" class="get-started-myBtn" id="myBtn1">Read more</button>
+              </div>
             </div>
           </div>
           </div>
@@ -302,6 +331,41 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script>
+  function myfunction(){
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+  </script>
+
+  <script>
+  function myfunction1(){
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
