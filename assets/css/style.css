@@ -454,7 +454,7 @@ section {
 
 .courses .img-fluid{
   width: 100%;
-  /* height: 45%; */
+  height: 15rem;
   margin: 5% 2%;
 }
 
@@ -488,44 +488,6 @@ section {
   color: #fff;
   margin: 0;
 }
-
-#myBtn{
-  border: none;
-}
-.courses .get-started-myBtn {
-    margin-left: 2px;
-    background: #5fcf80;
-    color: #fff;
-    border-radius: 50px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: fixed;
-  }
-
-#more {
-  display:none;
-}
-
-
-#myBtn1{
-  border: none;
-}
-.courses .get-started-myBtn {
-    margin-left: 2px;
-    background: #5fcf80;
-    color: #fff;
-    border-radius: 50px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: fixed;
-  }
-
-#more1 {
-  display:none;
-}
-
 
 /*--------------------------------------------------------------
 # services
@@ -1127,3 +1089,32 @@ height: 50%;
   text-decoration: none;
 }
 
+
+/* ------- read more button* ----- */
+#myBtn{
+  border: none;
+}
+.courses .get-started-myBtn {
+    margin-left: 2px;
+    background: #5fcf80;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: fixed;
+  }
+
+#more {
+  display:none;
+}
+
+
+
+#myBtn1{
+  border: none;
+}
+#more1 {
+  display:none;
+}
